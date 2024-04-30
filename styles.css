@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#image{
+    width: 100%;
+    height: 87.6vh;
+}
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #1f2b6c;
+    padding: 0 20px; 
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s; 
+}
+/* CSS for the logo */
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust the margin to create spacing between the logo and navigation links */
+    vertical-align: middle; /* Align the logo vertically with the navigation links */
+    float: l; /* Float the logo to the left */
+}
+
+
+.nav-link:hover {
+    color: #ff7f50;
+}
+
+
